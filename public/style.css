@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(187, 163, 160);
+  margin: 0;
+  padding: 0;
+}
+
+/*Navbar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(185, 89, 89);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*Home*/
+
+.frm {
+  margin-left: 20px;
+}
+
+.intro {
+  width: 600px;
+  height: 350px;
+  margin: 5% 0 0 30%;
+  font-size: large;
+  padding: 5px;
+}
+/*Our services*/
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 3px solid rgb(100, 88, 88);
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #695858;
+}
+
+#customers tr:hover {
+  background-color: rgb(160, 145, 98);
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(187, 142, 44);
+  color: white;
+}
+
+/*Contact us*/
+
+.ctc {
+  margin-left: 20px;
+}
